@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+.menu{
+    &-up {
+    display: flex;
+    margin: 0;
+    background: linear-gradient($menucolorbg1, $menucolorbg2);
+
+    &-preview {
+        margin: 42px 91px 30px 156px;
+
+        &-text {
+            margin: 0;
+            color: $menucolortext;
+            font-family: Rubik;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+
+        }
+    }
+
+    &-common {
+        display: flex;
+        margin: 0;
+
+        &-info {
+            margin: 70px 25px 53px 0;
+            &-txt{
+            color: #884900;
+
+            font-family: rubik;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+            }
+        }
+        &-perdone{
+            display: flex;
+            position: absolute;
+            right: 137px;
+            &-search {
+                display: flex;
+                align-items: right;
+                height: 45px;
+                width: 327px;
+                margin: 56px 0 43px 95px;
+                border-radius: 26px;
+                background-color: #ffffff;
+
+                &-text {
+                    padding-left: 21px;
+                    border: none;
+                    border-radius: 26px;
+                }
+
+                &-btn {
+                    padding: 10px 16px 11px 95px;
+                    background: transparent;
+                    border: none;
+                }
+
+                &-buttons {
+                    display: flex;
+                    margin: 56px 0 43px 0px;
+
+                    &-btn {
+                        margin-left: 24px;
+                        border-radius: 12px;
+                        background: transparent;
+                        background-color: #ffffff;
+                        border: none;
+                        height: 45px;
+                        width: 45px;
+                        &-img-cart{
+                            padding-left: 2.5px;
+                            padding-top: 4px;
+                        }
+                        &-img-user{
+                            padding-left: 1px;
+                            padding-top: 3 px;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
